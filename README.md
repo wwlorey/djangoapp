@@ -30,10 +30,10 @@ Leave the prefix as the default (`POSTGRES`).
 If it prompts you for a password, exit and try SSHing again.
 It should login automatically.
 
-8. Run the following script to migrate the database to the webapp:
+8. Run the following script to migrate the database to the webapp and pre-load some data:
 
     ```bash
-    ./pgconfig
+    ./migrate.sh
     ```
 
     When prompted, leave username and email address as the defaults. Password is `Pollsdb1`.
