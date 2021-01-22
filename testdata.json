@@ -1,0 +1,31 @@
+[
+    {
+        "model": "polls.question",
+        "pk": 1,
+        "fields": {
+            "id": 1,
+            "pub_date": "2021-01-21 12:00",
+            "question_text": "Which animal is better?"
+        }
+    },
+    {
+        "model": "polls.choice",
+        "pk": 2,
+        "fields": {
+            "id": 2,
+            "choice_text": "🐶 Dog",
+            "question_id": 1,
+            "votes": 0
+        }
+    },
+    {
+        "model": "polls.choice",
+        "pk": 3,
+        "fields": {
+            "id": 3,
+            "choice_text": "🐱 Cat",
+            "question_id": 1,
+            "votes": 0
+        }
+    }
+]

@@ -10,5 +10,8 @@ pip install Django whitenoise psycopg2-binary
 # Run database migrations
 python manage.py migrate
 
+# Pre-load some data
+python manage.py loaddata testdata.json
+
 # Create the super user (follow prompts)
 python manage.py createsuperuser

@@ -38,8 +38,7 @@ It should login automatically.
 
     When prompted, leave username and email address as the defaults. Password is `Pollsdb1`.
 
-9. Reload the webapp in the browser. This page should be displayed:
+9. Reload the webapp in the browser and it should display
+the sample poll.
 
     ![basic page](images/basic-page.png)
-
-10. ???
