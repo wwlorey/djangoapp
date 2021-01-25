@@ -36,8 +36,6 @@ It should login automatically.
     ./migrate.sh
     ```
 
-    When prompted, leave username and email address as the defaults. Password is `Pollsdb1`.
-
 9. Reload the webapp in the browser and it should display
 the sample poll.
 

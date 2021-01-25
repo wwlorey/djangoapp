@@ -14,4 +14,4 @@ python manage.py migrate
 python manage.py loaddata testdata.json
 
 # Create the super user (follow prompts)
-python manage.py createsuperuser
+# python manage.py createsuperuser
