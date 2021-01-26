@@ -1,0 +1,9 @@
+CREATE OR REPLACE FUNCTION public.create_poll(question text)
+ RETURNS void
+ LANGUAGE plpgsql
+AS $function$
+    BEGIN
+    INSERT INTO public.polls_question(id, question_text, pub_date)
+    Values(floor(random() * 1000 + 4)::int, question, current_timestamp);
+    END;
+$function$
